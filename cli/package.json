@@ -129,7 +129,7 @@
 		"turndown": "^7.2.0",
 		"undici": "^7.13.0",
 		"uri-js": "^4.4.1",
-		"uuid": "^11.1.0",
+		"uuid": "^14.0.0",
 		"vscode-material-icons": "^0.1.1",
 		"vscode-uri": "^3.0.8",
 		"web-tree-sitter": "^0.25.6",
