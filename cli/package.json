@@ -114,7 +114,7 @@
 		"semver": "^7.7.3",
 		"serialize-error": "^11.0.3",
 		"shiki": "^3.6.0",
-		"simple-git": "^3.27.0",
+		"simple-git": "^3.36.0",
 		"socket.io-client": "^4.8.1",
 		"sound-play": "^1.1.0",
 		"sqlite3": "^5.1.7",
