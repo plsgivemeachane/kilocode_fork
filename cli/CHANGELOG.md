@@ -1,5 +1,11 @@
 # @kilocode/cli
 
+## 0.4.3
+
+### Patch Changes
+
+- [#3769](https://github.com/Kilo-Org/kilocode/pull/3769) [`eff6f2b`](https://github.com/Kilo-Org/kilocode/commit/eff6f2b9e8161f4016a378a28cd0b9a4df9d5ee0) Thanks [@catrielmuller](https://github.com/catrielmuller)! - Update providers configurations
+
 ## 0.4.2
 
 ### Patch Changes
