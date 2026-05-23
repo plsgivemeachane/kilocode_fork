@@ -770,7 +770,7 @@ importers:
         version: 0.5.17
       openai:
         specifier: ^5.12.2
-        version: 5.12.2(ws@8.20.0)(zod@3.25.76)
+        version: 5.12.2(ws@8.21.0)(zod@3.25.76)
       os-name:
         specifier: ^6.0.0
         version: 6.1.0
@@ -1806,7 +1806,7 @@ importers:
         version: 0.5.17
       openai:
         specifier: ^5.12.2
-        version: 5.12.2(ws@8.20.0)(zod@3.25.61)
+        version: 5.12.2(ws@8.21.0)(zod@3.25.61)
       os-name:
         specifier: ^6.0.0
         version: 6.1.0
@@ -17066,8 +17066,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.8.0:
-    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
+  semver@7.8.1:
+    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -17174,6 +17174,10 @@ packages:
 
   shell-quote@1.8.3:
     resolution: {integrity: sha512-ObmnIF4hXNg1BqhnHmgbDETF8dLPCggZWBjkQfhZpbszZnYur5DUljTcCHii5LC3J5E0yeO/1LIMyH+UvHQgyw==}
+    engines: {node: '>= 0.4'}
+
+  shell-quote@1.8.4:
+    resolution: {integrity: sha512-VsC6n6vz1ihYYyZZwX7YZSF5l5x36ca17OC+a69h94YqB7X6XLwf+5MOgynYir2SLFUbl8gIYvBo8K8RoNQ6bQ==}
     engines: {node: '>= 0.4'}
 
   shiki@3.12.0:
@@ -19269,8 +19273,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  ws@8.20.0:
-    resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
+  ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -23458,7 +23462,7 @@ snapshots:
   '@libsql/isomorphic-ws@0.1.5':
     dependencies:
       '@types/ws': 8.18.1
-      ws: 8.20.0
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -31441,8 +31445,8 @@ snapshots:
       '@petamoriken/float16': 3.9.3
       debug: 4.4.3
       env-paths: 3.0.0
-      semver: 7.8.0
-      shell-quote: 1.8.3
+      semver: 7.8.1
+      shell-quote: 1.8.4
       which: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -35843,14 +35847,14 @@ snapshots:
       is-docker: 2.2.1
       is-wsl: 2.2.0
 
-  openai@5.12.2(ws@8.20.0)(zod@3.25.61):
+  openai@5.12.2(ws@8.21.0)(zod@3.25.61):
     optionalDependencies:
-      ws: 8.20.0
+      ws: 8.21.0
       zod: 3.25.61
 
-  openai@5.12.2(ws@8.20.0)(zod@3.25.76):
+  openai@5.12.2(ws@8.21.0)(zod@3.25.76):
     optionalDependencies:
-      ws: 8.20.0
+      ws: 8.21.0
       zod: 3.25.76
 
   opener@1.5.2: {}
@@ -38267,7 +38271,7 @@ snapshots:
 
   semver@7.7.3: {}
 
-  semver@7.8.0:
+  semver@7.8.1:
     optional: true
 
   send@0.19.0:
@@ -38448,6 +38452,9 @@ snapshots:
   shell-quote@1.8.2: {}
 
   shell-quote@1.8.3: {}
+
+  shell-quote@1.8.4:
+    optional: true
 
   shiki@3.12.0:
     dependencies:
@@ -41104,7 +41111,7 @@ snapshots:
 
   ws@8.18.3: {}
 
-  ws@8.20.0:
+  ws@8.21.0:
     optional: true
 
   xdg-basedir@5.1.0: {}
