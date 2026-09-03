@@ -118,7 +118,7 @@
 		"socket.io-client": "^4.8.1",
 		"sound-play": "^1.1.0",
 		"sqlite3": "^5.1.7",
-		"stream-json": "^1.8.0",
+		"stream-json": "^3.5.0",
 		"string-width": "^8.1.0",
 		"strip-ansi": "^7.1.0",
 		"strip-bom": "^5.0.0",
